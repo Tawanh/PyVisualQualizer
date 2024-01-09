@@ -49,7 +49,7 @@ def get_decibel(time, frequency, spectrogram, time_ratio, frequecies_ratio):
 ### VARIABLE ###
 ################
 
-AUDIO_PATH = "audio.mp4"
+AUDIO_PATH = "audio.mp3"
 SPECTROGRAM, TIME_RATIO, FREQUENCIES_RATIO = load_audio(AUDIO_PATH)
 HZ = np.arange(0,8000,100)
 
