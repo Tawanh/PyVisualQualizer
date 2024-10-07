@@ -113,7 +113,7 @@ def equ_circle(surface):
 
         color = 255 - (distance_point1 + distance_point2 - size * 2) / (size * 2) * 255
 
-        pygame.draw.line(surface, (255 - color, color, 0), point1, point2)
+        pygame.draw.line(surface, (255 - color, color, 0), (int(point1[0]), int(point1[1])), (int(point2[0]), int(point2[1])))
 
 #Draw a vizual equalizer in line on the surface
 def equ_line(surface):
